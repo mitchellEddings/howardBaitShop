@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Author: Mitchell Eddings -->
+<!-- Assigment: Exam 2 LIVE Bait Website -->
+<!-- Page Name:contactUs.html -->
+<!-- Date: TBD -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Google fonts links -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@500&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@300&display=swap" rel="stylesheet">
+     <!-- Title and stylesheet link -->
+    <title>Contact Us | Howard's Lakeside General Store</title>
+    <link rel="stylesheet" href="styles.css">
+     <!-- This puts my lovely dabbing Baymax alongside the tab title.-->
+     <link rel="icon" type="image/png" href="img/DabMaxColorInverted-removebg-preview.png">
+</head>
+
+<body>
+    <div class="container">
+        <!-- navigation -->
+        <nav>
+            <h1>Howard's Lakeside General Store</h1>
+            <a href="index.html">Home</a>
+            <a href="services.html">Our Services</a>
+            <!-- Originally, I was going to have the form on a contact us page (hence the name) but changed my mind afterwards and turned it into a form where the user schedules for a service of some sort. -->
+            <a href="contactUs.html">Request for a Service</a>
+        </nav>
+        <div class="main">
+            <p>Needing your rod respooled? Needing a good ol' fishing trip? Submit a form and we'll contact you and put it on the schedule!</p>
+            <form action="thankYou.html" method="get">
+                <fieldset>
+                    <!-- User Name -->
+                    <label for="Name">Name:
+                        <input type="text" name="Name" id="Name" placeholder="Enter Your Name" autofocus required>
+                    </label>
+                    <!-- Email -->
+                    <label for="Email">Email:
+                        <input type="Email" name="Email" id="email" placeholder="Enter Your Email" required>
+                    </label>
+                    <!-- Phone Number -->
+                    <label for="phone">Phone:
+                        <input type="tel" id="phone" name="Phone" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                    </label>
+                    <!-- select box for services -->
+                    <label for="select">Which service are you wanting?</label>
+                    <select name="select" id="selectbox">
+                        <option value="respooling">respooling</option>
+                        <option value="fishing trip">fishing trip</option>
+                    </select>
+                </fieldset>
+                <!-- Button to submit form -->
+      <input type="submit" value="Schedule Session">
+            </form>
+        </div>
+        <footer>&copy; Mitchell Eddings 2023
+            <img src="img/DabbingBaymax-removebg-preview.png" alt="Baymax be dabbin'" class="daBaPng">
+        </footer>
+    </div>
+</body>
+
+</html>

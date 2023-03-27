@@ -1,0 +1,169 @@
+/* Author: Mitchell Eddings 
+Assigment: Exam 2 LIVE Bait Website
+Date: TBD */
+
+/* divs and such */
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+body {
+    background-color: #131515;
+    color: white;
+
+}
+
+nav {
+    background-color: rgba(0, 167, 225, .15);
+    font-size: 1.5em;
+    text-align: right;
+    border-bottom: 0.1em solid black;
+    padding: 1em;
+}
+
+table {
+    border: 3px solid #131515;
+    background-color: #131515;
+    color: black;
+    width: 50%;
+}
+
+label {
+    display: block;
+    padding: 5px;
+}
+
+form {
+    padding: 5px;
+    margin: 5px;
+}
+
+footer {
+    border-top: 0.1em solid black;
+    background-color: #63D2FF;
+    padding: 1em;
+    color: black;
+}
+
+/* text  */
+h1 {
+    text-align: left;
+    font-size: 2em;
+    padding: 5px;
+    font-family: 'Bitter', serif;
+}
+
+h2 {
+    font-size: 1.75em;
+    padding: 15px 5px 5px 5px;
+    font-family: 'Bitter', serif;
+}
+
+p {
+    font-size: 1.1em;
+    font-family: 'Crimson Pro', serif;
+}
+
+a {
+    font-size: 1.25em;
+    text-decoration: none;
+    background-color: rgba(239, 248, 226, .15);
+    border-radius: 5px;
+    padding: 5px 3px;
+    font-family: 'Bitter', serif;
+}
+
+a:hover {
+    font-size: 1.25em;
+    text-decoration: underline;
+    background-color: rgba(255, 242, 117, 0.30);
+    border-radius: 5px;
+    padding: 5px 3px;
+    box-shadow: 3px -5px rgba(239, 248, 226, .15);
+}
+
+/* classes */
+.container {
+    background-color: #1A936F;
+    margin: 0em 2em;
+    border: .1em solid black;
+}
+
+.main1 {
+    margin: 0.25em 1.5em;
+    padding: 1em;
+    border-bottom: .1em solid black;
+}
+
+.main2 {
+    margin: 0.25em 1.5em;
+    padding: 1em;
+
+}
+
+.maint {
+    margin: 10px 100px;
+}
+
+.mainImg {
+    border: .11em solid #131515;
+    border-radius: 5px;
+    margin: 20px 100px 0px 40px;
+}
+
+/* classes for table */
+
+.tlabel {
+    border: 1px solid #131515;
+    background-color: rgba(99, 210, 255, .9);
+    font-weight: bold;
+    padding: 5px;
+    
+}
+
+.content {
+    border: 3px solid white;
+    background-color: rgba(239, 248, 226, .8);
+    padding: 5px;
+
+}
+
+/* classes for images */
+.right {
+    float: right;
+    border: .11em solid #131515;
+    border-radius: 5px;
+    margin: 20px 100px 0px 40px;
+}
+
+.clearFloat {
+    clear: both;
+}
+
+.daBaPng {
+    position: relative;
+    top: 5px;
+    height: 25px;
+}
+
+.img-cont {
+    position: relative;
+    top: 25%;
+    left: 25%;
+    margin-top: 25px;
+}
+
+/* ids */
+#map {
+    margin-top: 20px;
+    height: 300px;
+    width: 600px;
+    border: 0px;
+}
+
+#baitPrice {
+    position: relative;
+
+}
